@@ -1,0 +1,30 @@
+{
+  "name": "front-end-automation-sample",
+  "version": "1.0.0",
+  "description": "Front-End automation HA",
+  "author": "Andrii Mysnyk",
+  "homepage": "https://git.epam.com/andrii_mysnyk/js_mentoring_kyiv_2015",
+  "repository": {
+    "type": "git",
+    "url": "https://git.epam.com/andrii_mysnyk/js_mentoring_kyiv_2015"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": ">=0.4.0",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.12.1",
+    "grunt-postcss": "^0.7.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "latest",
+    "karma-jasmine": "^0.3.6",
+    "karma-js-coverage": "^0.4.0",
+    "karma-mocha-reporter": "^1.1.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-browserify": "latest",
+    "phantomjs": "^1.9.18"
+  }
+}
