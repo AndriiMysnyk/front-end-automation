@@ -3,16 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Front-End automation HA</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script type="text/javascript" src="build/coverage.js"></script>
 		<script type="text/javascript" src="build/index.js"></script>
 		<script type="text/javascript" src="build/app.js"></script>
 	</head>
 	<body onload="buildCoverageList()">
-		<h1>Autoprefixer/PostCSS</h1>
-		<h1>Browserify</h1>
-		<h1>Grunt</h1>
-		<h1>Jasmine/Karma</h1>
-		<h1>Travis CI</h1>
-		<h1>Code coverage reports:</h1>
+		<ul class="list-group col-md-4">
+			<li class="list-group-item">Autoprefixer/PostCSS</li>
+			<li class="list-group-item">Browserify</li>
+			<li class="list-group-item">Grunt</li>
+			<li class="list-group-item">Jasmine/Karma</li>
+			<li class="list-group-item">Travis CI</li>
+			<li class="list-group-item" id="reports">Code coverage reports:</li>
+		</ul>
 	</body>
 </html>
