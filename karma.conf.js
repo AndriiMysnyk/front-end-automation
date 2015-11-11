@@ -15,10 +15,15 @@ module.exports = function(config) {
         autoWatch: true,
         browsers: ['Chrome', 'PhantomJS'],
         reporters: ["mocha", "coverage"],
-        coverageReporter: {
-            type : 'html',
-            dir : 'coverage/'
-        },
+        coverageReporter: { reporters: [
+            {
+                type : 'html',
+                dir : 'coverage/'
+            },
+            {
+                type: 'text-summary'
+            }
+        ] },
         browserify: {
             debug: true
         },
